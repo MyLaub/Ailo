@@ -16,15 +16,13 @@ export const metadata: Metadata = {
   description: "Ailo Data Solutions",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="da">
-      <body className={`${dmSans.variable} antialiased`}>{children}</body>
-      <Header />
+      <body className={`${dmSans.variable} antialiased`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
-}
+} 
