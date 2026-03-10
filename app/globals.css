@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f3f2f1;
   --foreground: #171717;
+  --darkred: #381c1a;
+  --beige: #e8e5df;
+  --armygreen: #6e6854;
+  --darkbrown: #2a211d;
 }
 
 @theme inline {
@@ -14,16 +18,104 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2a211d;
+    --foreground: #f3f2f1;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+}
+
+p {
+  line-height: auto;
+}
+
+h2 {
+  line-height: auto;
+}
+
+/* .layout-grid {
   display: grid;
-  grid-template-columns: [full-start] 1fr [content-start] minmax(0, 600px) [middle] minmax(0, 600px) [content-end] 1fr [full-end];
-  grid-template-rows: auto 1fr;
+
+  grid-template-columns:
+    [full-start] clamp(24px, 1vw, 40px)
+    [content-start] minmax(180px, 320px)
+    [content-middle] minmax(720px, 1fr)
+    [content-end] clamp(24px, 1vw, 40px)
+    [full-end];
+
+  grid-template-rows: auto;
+} */
+
+/* .layout-grid {
+  display: grid;
+  grid-template-columns:
+    [full-start] 16px
+    [content-start] minmax(0, 1fr)
+    [content-end] 16px
+    [full-end];
+  grid-template-rows: auto;
+}
+
+@media (min-width: 1024px) {
+  .layout-grid {
+    grid-template-columns:
+      [full-start] clamp(24px, 1vw, 40px)
+      [content-start] minmax(180px, 320px)
+      [content-middle] minmax(0, 1fr)
+      [content-end] clamp(24px, 1vw, 40px)
+      [full-end];
+  }
+} */
+
+.layout-grid {
+  display: grid;
+  grid-template-columns:
+    [full-start] 16px
+    [content-start] minmax(0, 1fr)
+    [content-end] 16px
+    [full-end];
+  grid-template-rows: auto;
+}
+
+.label-col,
+.content-col {
+  grid-column: content-start / content-end;
+}
+
+.content-col {
+  min-width: 0;
+}
+
+/* spacing */
+.section-space {
+  padding-block: calc(var(--spacing) * 16);
+  row-gap: calc(var(--spacing) * 6);
+}
+
+@media (min-width: 1024px) {
+  .layout-grid {
+    grid-template-columns:
+      [full-start] clamp(24px, 1vw, 40px)
+      [content-start] minmax(180px, 320px)
+      [content-middle] minmax(0, 1fr)
+      [content-end] clamp(24px, 1vw, 40px)
+      [full-end];
+  }
+
+  .label-col {
+    grid-column: content-start / content-middle;
+  }
+
+  .content-col {
+    grid-column: content-middle / content-end;
+  }
+
+  /* spacing */
+  .section-space {
+    padding-block: calc(var(--spacing) * 24);
+  }
 }

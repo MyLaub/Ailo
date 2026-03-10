@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="da">
       <body className={`${dmSans.variable} antialiased`}>
-        <Header />
+
         {children}
       </body>
     </html>

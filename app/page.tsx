@@ -1,10 +1,13 @@
 import Image from "next/image";
-import InteractiveLaptopDemo from "./index_components/interactiveDemo";
+import WhatWeDo from "./sections_index/whatwedo";
+import WhoWeAre from "./sections_index/whoweare";
+
 
 export default function Home() {
   return (
     <main>
-      <InteractiveLaptopDemo />
+      <WhatWeDo />
+      <WhoWeAre />
     </main>
   );
 }
