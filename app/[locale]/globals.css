@@ -119,3 +119,53 @@ h2 {
     padding-block: calc(var(--spacing) * 24);
   }
 }
+
+/* case examples */
+.case-strip {
+  grid-column: content-start / full-end;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.section-space {
+  padding-block: calc(var(--spacing) * 16);
+}
+
+@media (min-width: 1024px) {
+  .section-space {
+    padding-block: calc(var(--spacing) * 24);
+  }
+}
+
+
+/* logobanner */
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: logo-marquee-scroll 40s linear infinite;
+}
+
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes logo-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

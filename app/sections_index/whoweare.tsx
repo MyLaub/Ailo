@@ -19,12 +19,12 @@ export default function WhoWeAre() {
         </h2>
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-8">
-          <div className="min-w-0">
+          <div className="aspect-4/5 w-[85vw] max-w-sm md:max-w-md lg:max-w-lg overflow-hidden">
             <Image
-              src="/images/who-we-are.jpg"
+              src="/images/cases/sara.jpg"
               alt={t("imageAlt")}
-              width={860}
-              height={1100}
+              width={480}
+              height={600}
               className="h-auto w-full object-cover"
             />
           </div>

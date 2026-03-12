@@ -1,7 +1,7 @@
 {
   "WhatWeDo": {
     "label": "What we do",
-    "body": "Lorem ipsum..."
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper."
   },
 
   "WhoWeAre": {
@@ -10,5 +10,62 @@
     "imageAlt": "Ailo founders",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit ame…",
     "readMore": "Read more"
+  },
+
+  "cases": {
+    "items": {
+       "madklubben": {
+        "title": "Madklubben",
+        "subtitle": "Integrated Data Platform & Automated Reporting",
+        "tags": ["Data platforms", "Automated Pipelines", "Business Intelligence"]
+      },
+      "esport-finland": {
+        "title": "Esport Finland",
+        "subtitle": "Data analysis across platforms",
+        "tags": ["Visualisation", "Forecasts", "Workshops"]
+      },
+       "buzz": {
+        "title": "Buzz",
+        "subtitle": "Integrated Data Platform & Automated Reporting",
+        "tags": ["Data platforms", "Automated Pipelines", "Business Intelligence"]
+      },
+      "betzler": {
+        "title": "Betzler",
+        "subtitle": "Migration of Sales Operations to Business Central",
+        "tags": ["ERP", "CRM", "Migration"]
+      },
+       "cnn": {
+        "title": "Claims Corporation Netwok",
+        "subtitle": "Claims Handling Automation",
+        "tags": ["Automation", "PowerQuery", "Workshops"]
+      },
+       "round": {
+        "title": "Round",
+        "subtitle": "Subcontracted Data Product Implementation",
+        "tags": ["Data Modelling", "Business Intelligence", "Data Consulting"]
+      }
+    }
+},
+
+"Testimonials": {
+    "items": {
+      "emma": {
+        "quote": "“AILO is an amazing team with high energy and badass skills. From the first day they felt as part of the team, and where very energetic and creative in solving our problems. Every workshop was carefully planned, and they made it easy to decide to keep them aboard. I'll recommend the team to anyone.”",
+        "name": "Emma Arfelt, CTO",
+        "company": "Buzz"
+      },
+      "oliver": {
+        "quote": "“I samarbejde med Ailo-teamet udviklede vi et KPI-system med fokus på at skabe et fælles sprog mellem front og køkken. Gennem hele processen oplevede vi Ailo som yderst professionelle og meget behagelige at arbejde sammen med. Det endelige system blev skarpt og gennemtænkt. En klar anbefaling herfra ”",
+        "name": "Oliver Kaae Mogensen, COO",
+        "company": "Buzz"
+      },
+      "anna": {
+        "quote": "“AILO managed to translate complex data into concrete recommendations that the entire team could act on…”",
+        "name": "Anna Nielsen",
+        "company": "Frankies"
+      }
+    }
   }
+
+
 }

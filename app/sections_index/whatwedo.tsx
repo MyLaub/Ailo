@@ -6,7 +6,7 @@ export default function WhatWeDo() {
   return (
     <section className="layout-grid section-space lg:items-start">
       <div className="label-col">
-        <p className="text-xs uppercase tracking-[0.08em] text-(--darkbrown)">
+        <p className="text-sm md:text-base uppercase tracking-[0.08em] text-(--darkbrown)">
           {t('label')}
         </p>
       </div>
