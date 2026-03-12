@@ -1,6 +1,14 @@
 {
   "WhatWeDo": {
     "label": "What we do",
-    "paragraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+    "body": "Lorem ipsum..."
+  },
+
+  "WhoWeAre": {
+    "label": "Who we are",
+    "title": "AILO is run by a team of four female founders, combining a unique blend of business and technical expertise.",
+    "imageAlt": "Ailo founders",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit ame…",
+    "readMore": "Read more"
   }
 }

@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
-import Header from "../global_components/header";
 
-// importing dm-sans font from google fonts
 const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
@@ -16,10 +15,17 @@ export const metadata: Metadata = {
   description: "Ailo Data Solutions",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const messages = await getMessages();
+
   return (
-    <html lang="da">
-      <body className={`${dmSans.variable} antialiased`}>{children}</body>
+    <html lang={locale}>
+      <body className={`${dmSans.variable} antialiased`}>
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+      </body>
     </html>
   );
 }

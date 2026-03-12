@@ -1,7 +1,7 @@
 import {useTranslations} from 'next-intl';
 
 export default function WhatWeDo() {
-  const t = useTranslations('HomePage.WhatWeDo');
+  const t = useTranslations("WhatWeDo");
 
   return (
     <section className="layout-grid section-space lg:items-start">
