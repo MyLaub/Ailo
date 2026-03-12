@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
-import Header from "./global_components/header";
+import Header from "../global_components/header";
 
 // importing dm-sans font from google fonts
 const dmSans = DM_Sans({
@@ -19,10 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="da">
-      <body className={`${dmSans.variable} antialiased`}>
-
-        {children}
-      </body>
+      <body className={`${dmSans.variable} antialiased`}>{children}</body>
     </html>
   );
-} 
+}
