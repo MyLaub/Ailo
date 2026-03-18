@@ -21,7 +21,7 @@ export default function WhoWeAre() {
         <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-8">
           <div className="aspect-4/5 w-[85vw] max-w-sm md:max-w-md lg:max-w-lg overflow-hidden">
             <Image
-              src="/images/cases/sara.jpg"
+              src="/images/group-portraits/group-index.webp"
               alt={t("imageAlt")}
               width={480}
               height={600}

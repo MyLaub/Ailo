@@ -1,0 +1,39 @@
+{
+  "expertise": {
+    "label": "OUR EXPERTISE",
+    "imageAltLeft": "Illustration of connected data systems",
+    "imageAltRight": "Portrait of the AILO team",
+    "body": "Strong data capabilities aren’t built in isolation - they’re structured in layers, each one enabling the next. We work with organisations to design and build these layers in the right sequence: connecting separate systems, surfacing data that you can work with, and extending it through predictive models."
+  },
+  "approach": {
+    "label": "Our approach",
+    "next": "Next step",
+    "goTo": "Go to",
+    "items": {
+      "explore": {
+        "title": "Explore",
+        "body": [
+          "Every engagement starts with a period of genuine exploration. We spend time inside your data environment, looking at your systems, your sources and how data currently moves through your organisation.",
+          "Most organisations have more to work with than they think, and a clearer sense of their symptoms than their causes. This phase is where we map what exists, talk to the people closest to the data and establish what is working and what is simply misaligned or underdeveloped.",
+          "Before development begins we have a defined scope that is technically sound, strategically focused and owned by both sides."
+        ]
+      },
+      "build": {
+        "title": "Build",
+        "body": [
+          "We turn the findings into concrete solutions that are realistic to implement and easy to work with.",
+          "This phase is about building with clarity, quality and long-term usability in mind.",
+          "We prioritise solutions that create value quickly without losing direction."
+        ]
+      },
+      "sustain": {
+        "title": "Sustain",
+        "body": [
+          "Once the solution is live, the work becomes about anchoring, ownership and continued development.",
+          "We help make sure the setup is actually used and can be maintained internally.",
+          "The goal is not just delivery, but something that lasts."
+        ]
+      }
+    }
+  }
+}

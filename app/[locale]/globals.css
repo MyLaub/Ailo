@@ -37,39 +37,7 @@ h2 {
   line-height: auto;
 }
 
-/* .layout-grid {
-  display: grid;
 
-  grid-template-columns:
-    [full-start] clamp(24px, 1vw, 40px)
-    [content-start] minmax(180px, 320px)
-    [content-middle] minmax(720px, 1fr)
-    [content-end] clamp(24px, 1vw, 40px)
-    [full-end];
-
-  grid-template-rows: auto;
-} */
-
-/* .layout-grid {
-  display: grid;
-  grid-template-columns:
-    [full-start] 16px
-    [content-start] minmax(0, 1fr)
-    [content-end] 16px
-    [full-end];
-  grid-template-rows: auto;
-}
-
-@media (min-width: 1024px) {
-  .layout-grid {
-    grid-template-columns:
-      [full-start] clamp(24px, 1vw, 40px)
-      [content-start] minmax(180px, 320px)
-      [content-middle] minmax(0, 1fr)
-      [content-end] clamp(24px, 1vw, 40px)
-      [full-end];
-  }
-} */
 
 .layout-grid {
   display: grid;
