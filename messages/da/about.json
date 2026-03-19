@@ -1,0 +1,16 @@
+{
+  "label": "About AILO",
+  "imageAltLeft": "yadayada",
+  "imageAltRight": "yadayada",
+  "mission": {
+    "label": "Our mission",
+    "body": "We strive to make technology more accessible for small and medium sized businesses. With that, we aim to design state-of-the-art custom solutions that create sustainable value and promote digitisation for those curious but unsure where to start."
+  },
+  "values": {
+    "label": "Our values",
+    "body": [
+      "We value real impact and meaningful outcomes, delivered through practical and measurable solutions. Our processes are built on transparency, clarity and open communication to support the demystification of technology.",
+      "Sustainability is a core value of our work, guiding us in the development of technology that is long-lasting and responsible. It is important to us that our partners also appreciate this value."
+    ]
+  }
+}

@@ -10,8 +10,8 @@ export default function Home() {
     <main>
       <WhatWeDo />
       <CaseExample />
-      <WhoWeAre />
       <Testimonials />
+      <WhoWeAre />
     </main>
   );
 }

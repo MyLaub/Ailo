@@ -35,5 +35,30 @@
         ]
       }
     }
-  }
+  },
+   "services": {
+    "label": "OUR SERVICES",
+    "imageAlt": "Abstract architectural pattern in black and white",
+    "intro": "Creating lasting value from data requires the discipline to sequence layers in the right hierarchy: foundation before analytics, analytics before prediction. Running through all of it is deployment - the operational backbone that keeps everything connected, automated and running reliably from end to end.",
+    "items": {
+      "connect": {
+        "title": "CONNECT",
+        "body": "For organisations whose data is distributed across disconnected systems. We design and build the pipelines, warehouses and integrations that bring it together and make it consistent and joint at the foundation."
+      },
+       "structure": {
+        "title": "STRUCTURE",
+        "body": "For organisations whose data exists, but lacks meaning at the level decisions require. We design and build the logical layer that transforms raw data into structured signals - enriching raw events with business logic to create defined behaviours, attributes and categories the business can act on."
+      },
+      "surface": {
+        "title": "SURFACE",
+        "body": "For organisations whose reporting is incomplete, unreliable or simply hard to use. We design and build the dashboards, tools, and interfaces that make data interactive, live, and accessible across the organisation. "
+      },
+      "predict": {
+        "title": "PREDICT",
+        "body": "For organisations that want to extend what their data can do. We build and train machine learning models and predictive systems across areas like forecasting, segmentation, process optimisation and decision support. "
+      },
+      "deploy": {
+        "title": "DEPLOY",
+        "body": "For organisations whose data work lives in development but needs to run in the cloud. We design and build the infrastructure that gets analytical tools and models deployed, integrated and running reliably in production. "
+      }}}
 }

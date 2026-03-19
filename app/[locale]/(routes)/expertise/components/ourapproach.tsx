@@ -119,7 +119,7 @@ export default function Approach() {
                 {activeStep.body.map((paragraph: string, i: number) => (
                   <p
                     key={i}
-                    className="text-lg leading-[1.18] tracking-[-0.01em] text-darkbrown md:text-xl"
+                    className="text-(--darkbrown) text-lg leading-[1.35] md:text-xl"
                   >
                     {paragraph}
                   </p>

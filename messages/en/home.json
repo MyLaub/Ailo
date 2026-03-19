@@ -8,7 +8,10 @@
     "label": "Who we are",
     "title": "AILO is run by a team of four experienced data and engineering specialists. ",
     "imageAlt": "Ailo founders",
-    "body": "We approach our work with a strong sense of craft and responsibility. That means working closely with our clients, placing great importance on understanding their environment, and shaping solutions that grow naturally from their existing foundation. We believe meaningful progress with data rests on meeting organisations where they are and building thoughtfully from there. For that reason, we take care to build things right and stay close to the systems we create, remaining accountable for their design, implementation and longevity.",
+  "body": [
+  "We approach our work with a strong sense of craft and responsibility. That means working closely with our clients, placing great importance on understanding their environment, and shaping solutions that grow naturally from their existing foundation.",
+  "We believe meaningful progress with data rests on meeting organisations where they are and building thoughtfully from there. For that reason, we take care to build things right and stay close to the systems we create, remaining accountable for their design, implementation and longevity."
+],
     "readMore": "Read more"
   },
 
@@ -50,19 +53,24 @@
 "Testimonials": {
     "items": {
       "emma": {
-        "quote": "“AILO is an amazing team with high energy and badass skills. From the first day they felt as part of the team, and where very energetic and creative in solving our problems. Every workshop was carefully planned, and they made it easy to decide to keep them aboard. I'll recommend the team to anyone.”",
+        "quote": "AILO is an amazing team with high energy and badass skills. From the first day they felt as part of the team, and were very energetic and creative in solving our problems. Every workshop was carefully planned, and they made it easy to decide to keep them aboard. I'll recommend the team to anyone.",
         "name": "Emma Arfelt, CTO",
         "company": "Buzz"
       },
       "oliver": {
-        "quote": "“I samarbejde med Ailo-teamet udviklede vi et KPI-system med fokus på at skabe et fælles sprog mellem front og køkken. Gennem hele processen oplevede vi Ailo som yderst professionelle og meget behagelige at arbejde sammen med. Det endelige system blev skarpt og gennemtænkt. En klar anbefaling herfra ”",
+        "quote": "In collaboration with the Ailo team, we developed a KPI system focused on creating a common language between the front of house and the kitchen. Throughout the entire process, we experienced Ailo as highly professional and very pleasant to work with. The final system was sharp and well thought out. A clear recommendation from us.",
         "name": "Oliver Kaae Mogensen, COO",
         "company": "Buzz"
       },
-      "anna": {
-        "quote": "“AILO managed to translate complex data into concrete recommendations that the entire team could act on…”",
-        "name": "Anna Nielsen",
-        "company": "Frankies"
+      "giorgia": {
+        "quote": "Working with AILO was an incredibly pleasant experience. The team is extremely professional. We felt supported throughout the entire process, they were able to anticipate needs and foresee issues before we could. They guided us through all of our questions and provided incredible post-handover support. I recommend working with AILO to anyone looking for a fast, reliable partner.",
+        "name": "Giorgia Tuzzi, Executive Assistant",
+        "company": "Betzler Group"
+      },
+       "morten": {
+        "quote": "Working with AILO was an incredibly pleasant experience. The team is extremely professional. We felt supported throughout the entire process, they were able to anticipate needs and foresee issue before we could. They guided us through all of our questions and provided incredible post-handover support. I recommend working with AILO to anyone looking for a fast, reliable partner.",
+        "name": "Morten Løwenstein, CFO",
+        "company": "Madklubben"
       }
     }
   }
