@@ -4,9 +4,10 @@
   --background: #f3f2f1;
   --foreground: #171717;
   --darkred: #381c1a;
-  --beige: #e8e5df;
+  --beige: #e9e5df;
   --armygreen: #6e6854;
   --darkbrown: #2a211d;
+ 
 }
 
 @theme inline {
@@ -64,6 +65,22 @@ h2 {
   row-gap: calc(var(--spacing) * 6);
 }
 
+.content-split {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.content-split > * {
+  min-width: 0;
+}
+
+
+@media (min-width: 1024px) {
+  .content-split {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
 @media (min-width: 1024px) {
   .layout-grid {
     grid-template-columns:
@@ -80,6 +97,10 @@ h2 {
 
   .content-col {
     grid-column: content-middle / content-end;
+  }
+
+    .content-split {
+    grid-template-columns: 1fr 2fr;
   }
 
   /* spacing */

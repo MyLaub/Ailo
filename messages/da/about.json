@@ -1,16 +1,56 @@
 {
+"approach": {
   "label": "About AILO",
-  "imageAltLeft": "yadayada",
-  "imageAltRight": "yadayada",
-  "mission": {
-    "label": "Our mission",
-    "body": "We strive to make technology more accessible for small and medium sized businesses. With that, we aim to design state-of-the-art custom solutions that create sustainable value and promote digitisation for those curious but unsure where to start."
+  "bodyPrimary": "AILO is founded and run by a team of four data and engineering specialists and is small by intention and design. We work with a focused number of clients at a time, cover the full data stack ourselves and remain close to everything we build.",
+  "bodySecondary": "There are no layers between the people who scope the work and the people who deliver it, and it is a choice we make deliberately. We founded the practice because we value and enjoy direct relationships, full ownership of the work and the freedom to do it properly.",
+  "imageAlt": "ourTeam"
+},
+
+   "values": {
+    "label": "Our values"
   },
-  "values": {
-    "label": "Our values",
-    "body": [
-      "We value real impact and meaningful outcomes, delivered through practical and measurable solutions. Our processes are built on transparency, clarity and open communication to support the demystification of technology.",
-      "Sustainability is a core value of our work, guiding us in the development of technology that is long-lasting and responsible. It is important to us that our partners also appreciate this value."
-    ]
+  "care": {
+    "label": "Care",
+    "body": "We run our business with our hearts. We care about our team, our clients and the work we put into the world. We believe in kindness, trust, and creating a warm environment where people thrive and enjoy the journey together."
+  },
+
+  "craft": {
+    "label": "Craft",
+    "body": "We highly respect the craft behind the things we build. With attention to detail, thoughtful design, and solid engineering, we approach our work with patience and intention. We value solutions that are clear, well considered, and grounded in how they will be used."
+  },
+
+  "clarity": {
+    "label": "Clarity",
+    "body": "Clarity is something we work at deliberately. In how we communicate, in how we structure our work and in what we build. We aim for solutions that are legible, honest and free from clutter and unnecessary complexity."
+  },
+
+  "people": {
+    "label": "Our team",
+    "contactLabel": "Contact",
+
+    "mathilde": {
+      "name": "Mathilde Lundsberg-Nielsen",
+      "role": "Co-founder & Data Scientist",
+      "alt": "Portrait of Mathilde Lundsberg-Nielsen",
+      "languages": ["Danish", "English"]
+    },
+    "marie": {
+      "name": "Marie Liljegren Gam",
+      "role": "Co-founder & Data Scientist",
+      "alt": "Portrait of Marie Liljegren Gam",
+      "languages": ["Danish", "English"]
+    },
+    "sara": {
+      "name": "Sara Kautto",
+      "role": "Co-founder & Data Scientist",
+      "alt": "Portrait of Sara Kautto",
+      "languages": ["English", "Finnish", "Swedish"]
+    },
+    "theresa": {
+      "name": "Theresa Kränzle",
+      "role": "Co-founder & Data Scientist",
+      "alt": "Portrait of Theresa Kränzle",
+      "languages": ["German", "English", "Dutch"]
+    }
   }
 }

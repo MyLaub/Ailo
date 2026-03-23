@@ -13,7 +13,7 @@ export default function WhoWeAre() {
         </div>
 
         <div className="content-col">
-          <h2 className="text-2xl font-light  md:text-3xl lg:text-4xl">{t("title")}</h2>
+          <h2 className="text-2xl leading-[1.15] tracking-[-0.02em] text-(--darkbrown) md:text-3xl lg:text-4xl">{t("title")}</h2>
         </div>
 
         <div className="content-col mt-10">

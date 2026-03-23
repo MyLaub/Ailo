@@ -1,7 +1,7 @@
 {
   "WhatWeDo": {
     "label": "What we do",
-    "body": "We build stronger foundations for how mid-size companies work with data. We combine technical proficiency with strong commercial and operational experience to design and build across the full data stack. In practice that covers three primary layers; the infrastructure that synchronises data across your independent systems, the analytical interfaces that surface it, and the predictive models that extend it. Built specifically around your organisation, the result is a solid technical foundation that remains yours to use and grow with."
+    "body": "We build stronger foundations for how mid-size companies work with data. In practice that covers three primary layers; the infrastructure that synchronises data across your independent systems, the analytical interfaces that surface it, and the predictive models that extend it. Built specifically around your organisation, the result is a solid technical foundation that remains yours to use and grow with."
   },
 
   "WhoWeAre": {
@@ -15,7 +15,11 @@
     "readMore": "Read more"
   },
 
+
+
   "cases": {
+     "label": "Featured\nCases",
+      "allCases": "All our cases",
     "items": {
        "madklubben": {
         "title": "Madklubben",

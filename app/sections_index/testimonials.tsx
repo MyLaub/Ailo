@@ -81,12 +81,12 @@ export default function TestimonialsGrid() {
         <div className="grid gap-20 md:grid-cols-2 xl:grid-cols-3 ">
           {TESTIMONIAL_IDS.map((id) => (
             <article className="flex h-full flex-col">
-              <p className="font-light text-md leading-[1.3] tracking-[-0.01em] text-darkbrown md:text-lg mb-5 ">“{t(`items.${id}.quote`)}”</p>
+              <p className="font-light text-md leading-[1.3] tracking-[-0.01em] text-(--darkbrown) md:text-lg mb-5 ">“{t(`items.${id}.quote`)}”</p>
 
               <div className="mt-auto pt-8">
-                <p className="text-sm text-darkbrown">{t(`items.${id}.name`)}</p>
+                <p className="text-sm text-(--darkbrown)">{t(`items.${id}.name`)}</p>
 
-                <p className="text-sm uppercase tracking-[0.08em] text-darkbrown/60">{t(`items.${id}.company`)}</p>
+                <p className="text-sm uppercase tracking-[0.08em] text-(--darkbrown)/60">{t(`items.${id}.company`)}</p>
               </div>
             </article>
           ))}

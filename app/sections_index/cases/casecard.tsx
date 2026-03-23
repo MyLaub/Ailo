@@ -22,6 +22,7 @@ export default function CaseCard({ title, subtitle, backgroundImage, foregroundI
         <div>
           <h3 className="text-sm uppercase tracking-[0.08em] md:text-base">{title}</h3>
           <p className="mt-2 text-xs md:text-sm">{subtitle}</p>
+          
         </div>
 
         <div className="w-[74%]">

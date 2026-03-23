@@ -4,9 +4,11 @@ import {useEffect, useRef} from "react";
 import {useTranslations} from "next-intl";
 import CaseCard from "./casecard";
 import {cases} from "@/data/casedata"
+import { Link } from "@/intl/navigation";
 
 export default function CaseExample() {
-  const t = useTranslations("cases.items");
+  const t = useTranslations("cases");
+  const itemsT = useTranslations("cases.items");
   const sectionRef = useRef<HTMLElement | null>(null);
   const trackRef = useRef<HTMLDivElement | null>(null);
   const pausedRef = useRef(false);
@@ -58,7 +60,20 @@ export default function CaseExample() {
 
   return (
     <section ref={sectionRef} className="layout-grid section-space">
-      <div className="case-strip">
+          <div className="label-col">
+        <h2 className="text-2xl leading-[0.85] tracking-[-0.02em] text-(--darkbrown) md:text-3xl lg:text-6xl whitespace-pre-line">
+          {t('label')}
+        </h2>
+      </div>
+      <div className="content-col flex items-end justify-start pt-6 lg:justify-end lg:pt-0">
+        <Link
+          href="/cases"
+          className="text-sm text-(--darkbrown)"
+        >
+          {t("allCases")} <span aria-hidden="true">→</span>
+        </Link>
+      </div>
+      <div className="case-strip pt-4">
         <div
           ref={trackRef}
           onMouseEnter={() => {
@@ -73,9 +88,9 @@ export default function CaseExample() {
             <div key={item.id} data-case-slide className="shrink-0 snap-start">
               <CaseCard
 
-                title={t(`${item.id}.title`)}
-                subtitle={t(`${item.id}.subtitle`)}
-                tags={t.raw(`${item.id}.tags`) as string[]}
+                title={itemsT(`${item.id}.title`)}
+                subtitle={itemsT(`${item.id}.subtitle`)}
+                tags={itemsT.raw(`${item.id}.tags`) as string[]}
                 backgroundImage={item.backgroundImage}
                 foregroundImage={item.foregroundImage}
                 href={item.href}

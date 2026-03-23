@@ -13,6 +13,8 @@
   },
 
   "cases": {
+     "label": "Featured\nCases",
+      "allCases": "All our cases",
     "items": {
       "madklubben": {
         "title": "Madklubben",

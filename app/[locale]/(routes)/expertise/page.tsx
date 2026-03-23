@@ -13,7 +13,7 @@ export default function Expertise() {
     <main>
    <section className="layout-grid section-space">
   <div className="label-col pt-1">
-    <p className="text-sm uppercase tracking-[0.08em] text-darkbrown">
+    <p className="text-sm uppercase tracking-[0.08em] text-(--darkbrown)">
       {expertiseT("label")}
     </p>
   </div>
@@ -45,7 +45,7 @@ export default function Expertise() {
   <div className="col-[content-middle/content-end] mt-8 md:mt-10">
 
   {/* RET TEKST HER!!!  */}
-    <p className="text-2xl leading-[1.15] tracking-[-0.02em] text-darkbrown md:text-3xl lg:text-4xl">
+    <p className="text-2xl leading-[1.15] tracking-[-0.02em] text-(--darkbrown) md:text-3xl lg:text-4xl">
       {expertiseT("body")}
     </p>
   </div>
@@ -56,13 +56,13 @@ export default function Expertise() {
       <section className="section-full">
         <div className="layout-grid section-space">
           <div className="label-col pt-1">
-            <p className="text-sm uppercase tracking-[0.08em] text-darkbrown">{servicesT("label")}</p>
+            <p className="text-sm uppercase tracking-[0.08em] text-(--darkbrown)">{servicesT("label")}</p>
           </div>
 
           <div className="content-col">
             <div className="grid gap-10 md:grid-cols-2 lg:gap-12">
               <div className="md:col-start-1">
-                <p className="text-(--darkbrown) text-lg leading-[1.35] md:text-xl">{servicesT("intro")}</p>
+                <p className="text-2xl leading-[1.15] tracking-[-0.02em] text-(--darkbrown) md:text-3xl lg:text-4xl">{servicesT("intro")}</p>
 
                 <div className="mt-10 aspect-4/5 w-full overflow-hidden lg:mt-14">
                   <Image src="/images/expertise/services.webp" alt={servicesT("imageAlt")} width={700} height={875} className="h-full w-full object-cover" />
@@ -72,7 +72,7 @@ export default function Expertise() {
               <div className="space-y-10 lg:space-y-12 md:col-start-2">
                 {SERVICE_IDS.map((id) => (
                   <div key={id}>
-                    <h3 className="text-sm uppercase tracking-[0.08em] text-darkbrown">{servicesT(`items.${id}.title`)}</h3>
+                    <h3 className="text-sm uppercase tracking-[0.08em] text-(--darkbrown)">{servicesT(`items.${id}.title`)}</h3>
 
                     <p className="mt-1.5 text-(--darkbrown) text-lg leading-[1.35] md:text-xl">{servicesT(`items.${id}.body`)}</p>
                   </div>
