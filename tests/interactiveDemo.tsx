@@ -194,7 +194,7 @@ export default function InteractiveDemoRunOnlyWithLog() {
         <div className="overflow-hidden rounded-[28px] border bg-[#f7f6f4] shadow-sm">
           <div className="h-140 w-full">
             <div className="flex h-full flex-col">
-              {/* Scrollable "screen" with persistent log */}
+             
               <div className="flex-1 overflow-y-auto px-10 pt-10">
                 <div className="space-y-4">
                   <AnimatePresence initial={false}>
@@ -290,7 +290,7 @@ export default function InteractiveDemoRunOnlyWithLog() {
                 </div>
               </div>
 
-              {/* Fixed input bar (only shows current prompt being typed) */}
+             
               <div className="border-t border-black/10 bg-white/60 p-4 backdrop-blur">
                 <div className="mx-auto flex w-full max-w-4xl items-center gap-4">
                   <div className="flex-1 rounded-2xl bg-white px-5 py-4 text-sm text-black/80 shadow-inner">
