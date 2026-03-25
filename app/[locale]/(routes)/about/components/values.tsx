@@ -53,7 +53,7 @@ export default function Values() {
             <article key={id} className="flex h-full flex-col">
               <p className="mb-5 text-sm uppercase tracking-[0.08em] ">{t(`${id}.label`)}</p>
 
-              <p className="text-md font-light leading-[1.3] tracking-[-0.01em]  md:text-lg">{t(`${id}.body`)}</p>
+              <p className="text-md leading-[1.3] tracking-[-0.01em]  md:text-lg">{t(`${id}.body`)}</p>
             </article>
           ))}
         </div>
