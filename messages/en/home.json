@@ -1,14 +1,83 @@
 {
   "WhatWeDo": {
     "label": "What we do",
-    "body": "Lorem ipsum..."
+    "body": "We build stronger foundations for how mid-size companies work with data. In practice that covers three primary layers; the infrastructure that synchronises data across your independent systems, the analytical interfaces that surface it, and the predictive models that extend it. Built specifically around your organisation, the result is a solid technical foundation that remains yours to use and grow with."
   },
 
   "WhoWeAre": {
     "label": "Who we are",
-    "title": "AILO is run by a team of four female founders, combining a unique blend of business and technical expertise.",
+    "title": "AILO is run by a team of four experienced data and engineering specialists. ",
     "imageAlt": "Ailo founders",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit ame…",
+  "body": [
+  "We approach our work with a strong sense of craft and responsibility. That means working closely with our clients, placing great importance on understanding their environment, and shaping solutions that grow naturally from their existing foundation.",
+  "We believe meaningful progress with data rests on meeting organisations where they are and building thoughtfully from there. For that reason, we take care to build things right and stay close to the systems we create, remaining accountable for their design, implementation and longevity."
+],
     "readMore": "Read more"
+  },
+
+
+
+  "cases": {
+     "label": "Featured\nCases",
+      "allCases": "All our cases",
+    "items": {
+       "madklubben": {
+        "title": "Madklubben",
+        "subtitle": "Integrated Data Platform & Automated Reporting",
+        "tags": ["Data platforms", "Automated Pipelines", "Business Intelligence"]
+      },
+      "esport-finland": {
+        "title": "Esport Finland",
+        "subtitle": "Data analysis across platforms",
+        "tags": ["Visualisation", "Forecasts", "Workshops"]
+      },
+       "buzz": {
+        "title": "Buzz",
+        "subtitle": "Integrated Data Platform & Automated Reporting",
+        "tags": ["Data platforms", "Automated Pipelines", "Business Intelligence"]
+      },
+      "betzler": {
+        "title": "Betzler",
+        "subtitle": "Migration of Sales Operations to Business Central",
+        "tags": ["ERP", "CRM", "Migration"]
+      },
+       "cnn": {
+        "title": "Claims Corporation Netwok",
+        "subtitle": "Claims Handling Automation",
+        "tags": ["Automation", "PowerQuery", "Workshops"]
+      },
+       "round": {
+        "title": "Round",
+        "subtitle": "Subcontracted Data Product Implementation",
+        "tags": ["Data Modelling", "Business Intelligence", "Data Consulting"]
+      }
+    }
+},
+
+"Testimonials": {
+    "items": {
+      "emma": {
+        "quote": "AILO is an amazing team with high energy and badass skills. From the first day they felt as part of the team, and were very energetic and creative in solving our problems. Every workshop was carefully planned, and they made it easy to decide to keep them aboard. I'll recommend the team to anyone.",
+        "name": "Emma Arfelt, CTO",
+        "company": "Buzz"
+      },
+      "oliver": {
+        "quote": "In collaboration with the Ailo team, we developed a KPI system focused on creating a common language between the front of house and the kitchen. Throughout the entire process, we experienced Ailo as highly professional and very pleasant to work with. The final system was sharp and well thought out. A clear recommendation from us.",
+        "name": "Oliver Kaae Mogensen, COO",
+        "company": "Buzz"
+      },
+      "giorgia": {
+        "quote": "Working with AILO was an incredibly pleasant experience. The team is extremely professional. We felt supported throughout the entire process, they were able to anticipate needs and foresee issues before we could. They guided us through all of our questions and provided incredible post-handover support. I recommend working with AILO to anyone looking for a fast, reliable partner.",
+        "name": "Giorgia Tuzzi, Executive Assistant",
+        "company": "Betzler Group"
+      },
+       "morten": {
+        "quote": "Working with AILO was an incredibly pleasant experience. The team is extremely professional. We felt supported throughout the entire process, they were able to anticipate needs and foresee issue before we could. They guided us through all of our questions and provided incredible post-handover support. I recommend working with AILO to anyone looking for a fast, reliable partner.",
+        "name": "Morten Løwenstein, CFO",
+        "company": "Madklubben"
+      }
+    }
   }
+
+
 }

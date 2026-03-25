@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "./global_components/header";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -23,8 +24,16 @@ export default async function LocaleLayout({ children, params }: { children: Rea
 
   return (
     <html lang={locale}>
-      <body className={`${dmSans.variable} antialiased`}>
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+ <body className={`${dmSans.variable} antialiased`}>
+        <NextIntlClientProvider messages={messages}>
+          
+          <Header variant="dark" />
+
+          <main>
+            {children}
+          </main>
+
+        </NextIntlClientProvider>
       </body>
     </html>
   );
