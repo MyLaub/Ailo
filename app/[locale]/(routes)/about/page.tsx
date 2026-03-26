@@ -70,12 +70,14 @@ import Values from "./components/values";
 import People from "./components/people";  
 import Hero from "./components/hero_about" 
 import { Header } from "../../global_components/header";
+import Intro2 from "./components/intro2";
 
 export default function About() {
   return (
     <main>
           <Header variant="light" />
         <Hero />
+        <Intro2 />
       <Intro />
       <Values />
       <People />

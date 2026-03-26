@@ -15,7 +15,7 @@ export default function AboutHero() {
           <div className="aspect-video  overflow-hidden">
             <Image
               src="/images/group-portraits/group-index.webp"
-              alt={t("title")}
+              alt={t("imageAlt")}
               width={2000}
               height={1200}
               className="w-full h-full object-cover"

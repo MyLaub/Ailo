@@ -12,6 +12,7 @@ export default function Home() {
       <Hero />
       <WhatWeDo />
       <CaseExample />
+      <LogoBanner />
       <Testimonials />
       <WhoWeAre />
     </main>

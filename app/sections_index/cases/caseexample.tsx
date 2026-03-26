@@ -82,7 +82,8 @@ export default function CaseExample() {
           onMouseLeave={() => {
             pausedRef.current = false;
           }}
-          className="no-scrollbar flex snap-x snap-mandatory gap-4 overflow-x-auto pr-4 md:gap-6 md:pr-8"
+           style={{ touchAction: "pan-x" }}
+          className="no-scrollbar flex snap-x snap-mandatory gap-4 overflow-x-auto overflow-y-hidden pr-4 md:gap-6 md:pr-8"
         >
           {cases.map((item) => (
             <div key={item.id} data-case-slide className="shrink-0 snap-start">

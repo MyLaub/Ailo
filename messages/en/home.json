@@ -2,11 +2,13 @@
 "Hero": {
     "label": "We help you unlock the value in data you already have."
    
+   
   },
 
   "WhatWeDo": {
     "label": "What we do",
-    "body": "We build stronger foundations for how mid-size companies work with data. In practice that covers three primary layers; the infrastructure that synchronises data across your independent systems, the analytical interfaces that surface it, and the predictive models that extend it. Built specifically around your organisation, the result is a solid technical foundation that remains yours to use and grow with."
+    "body": "We build stronger foundations for how mid-size companies work with data. In practice that covers three primary layers; the infrastructure that synchronises data across your independent systems, the analytical interfaces that surface it, and the predictive models that extend it. Built specifically around your organisation, the result is a solid technical foundation that remains yours to use and grow with.",
+      "imageAlt": "Ailo founders"
   },
 
   "WhoWeAre": {
