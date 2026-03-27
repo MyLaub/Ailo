@@ -5,6 +5,7 @@ import WhoWeAre from "../sections_index/whoweare";
 import CaseExample from "../sections_index/cases/caseexample";
 import LogoBanner from "../sections_index/cases/logobanner";
 import Testimonials from "../sections_index/testimonials";
+import Prefooter from "../global_components/prefooter";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <LogoBanner />
       <Testimonials />
       <WhoWeAre />
+          <Prefooter />
     </main>
   );
 }

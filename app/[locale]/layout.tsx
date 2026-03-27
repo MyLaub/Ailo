@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "./global_components/header";
+import { Header } from "../global_components/header";
+import { Footer } from "../global_components/footer";
+import { Public_Sans } from "next/font/google";
 
-const dmSans = DM_Sans({
+const publicSans = Public_Sans({
   subsets: ["latin"],
-  variable: "--font-dm-sans",
-  weight: ["400", "500", "700"],
+  variable: "--font-sans",
+  display: "swap",
+  weight: ["200", "300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -24,15 +26,13 @@ export default async function LocaleLayout({ children, params }: { children: Rea
 
   return (
     <html lang={locale}>
- <body className={`${dmSans.variable} antialiased`}>
+      <body className={`${publicSans.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          
           <Header variant="dark" />
 
-          <main>
-            {children}
-          </main>
+          <main>{children}</main>
 
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

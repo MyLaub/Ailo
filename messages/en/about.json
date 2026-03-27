@@ -1,7 +1,9 @@
-{
+{"about":{
+  
+  "hero":{
    "label": "Our team",
     "title": "About us",
-      "imageAlt": "Ailo founders",
+      "imageAlt": "Ailo founders"},
 
 "approach": {
   "label": "About AILO",
@@ -57,4 +59,4 @@
       "languages": ["German", "English", "Dutch"]
     }
   }
-}
+}}

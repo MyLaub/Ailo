@@ -60,12 +60,16 @@ export default function CaseExample() {
 
   return (
     <section ref={sectionRef} className="layout-grid section-space">
+
+      {/* label */}
           <div className="label-col">
         <h2 className="text-2xl leading-[0.85] tracking-[-0.02em] text-(--darkbrown) md:text-3xl lg:text-6xl whitespace-pre-line">
           {t('label')}
         </h2>
       </div>
-      <div className="content-col flex items-end justify-start pt-6 lg:justify-end lg:pt-0">
+
+      {/* more cases link */}
+      <div className="col-[content-start/content-end] flex items-end justify-start pt-6 lg:justify-end lg:pt-0">
         <Link
           href="/cases"
           className="text-sm text-(--darkbrown)"
@@ -73,7 +77,9 @@ export default function CaseExample() {
           {t("allCases")} <span aria-hidden="true">→</span>
         </Link>
       </div>
-      <div className="case-strip pt-4">
+
+{/* cases cards */}
+      <div className="case-strip pt-4 col-[content-start/full-end]">
         <div
           ref={trackRef}
           onMouseEnter={() => {

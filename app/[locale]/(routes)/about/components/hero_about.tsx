@@ -31,14 +31,14 @@ export default function AboutHero() {
       {/* label */}
       <div className="label-col row-start-1 self-center pt-32">
         <p className="text-sm uppercase tracking-[0.08em] text-white">
-          {t("label")}
+          {t("hero.label")}
         </p>
       </div>
 
       {/* h1 */}
       <div className="label-col row-start-1 self-end pb-16">
         <h1 className="text-5xl md:text-6xl lg:text-7xl text-white">
-          {t("title")}
+          {t("hero.title")}
         </h1>
       </div>
 

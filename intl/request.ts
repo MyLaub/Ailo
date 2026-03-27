@@ -12,13 +12,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const home = (await import(`../messages/${locale}/home.json`)).default;
   const expertise = (await import(`../messages/${locale}/expertise.json`)).default;
   const about = (await import(`../messages/${locale}/about.json`)).default;
+  const footer = (await import(`../messages/${locale}/footer.json`)).default;
 
   return {
     locale,
     messages: {
       ...home,
       ...expertise,
-      about
+      ...about,
+      ...footer
     }
   };
 });

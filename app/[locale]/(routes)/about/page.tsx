@@ -65,22 +65,23 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Intro from "./components/intro";
 import Values from "./components/values";
-import People from "./components/people";  
-import Hero from "./components/hero_about" 
-import { Header } from "../../global_components/header";
+import People from "./components/people";
+import Hero from "./components/hero_about";
+import { Header } from "../../../global_components/header";
 import Intro2 from "./components/intro2";
+import Prefooter from "../../../global_components/prefooter";
 
 export default function About() {
   return (
     <main>
-          <Header variant="light" />
-        <Hero />
-        <Intro2 />
-      <Intro />
+      <Header variant="light" />
+      <Hero />
+      <Intro2 />
+
       <Values />
       <People />
+      <Prefooter />
     </main>
   );
 }

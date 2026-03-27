@@ -1,4 +1,10 @@
-{
+{"about":{
+  
+  "hero":{
+   "label": "Our team",
+    "title": "About us",
+      "imageAlt": "Ailo founders"},
+
 "approach": {
   "label": "About AILO",
   "bodyPrimary": "AILO is founded and run by a team of four data and engineering specialists and is small by intention and design. We work with a focused number of clients at a time, cover the full data stack ourselves and remain close to everything we build.",
@@ -25,7 +31,7 @@
   },
 
   "people": {
-    "label": "Our team",
+    "label": "Our\nTeam",
     "contactLabel": "Contact",
 
     "mathilde": {
@@ -53,4 +59,4 @@
       "languages": ["German", "English", "Dutch"]
     }
   }
-}
+}}

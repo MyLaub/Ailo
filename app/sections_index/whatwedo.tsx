@@ -67,18 +67,21 @@ export default function WhatWeDo() {
 
   return (
     <section className="layout-grid section-space bg-(--beige) text-(--darkbrown)">
+
+      {/* label */}
       <div className="label-col">
         <p className="text-sm uppercase tracking-[0.08em] md:text-base">
           {t("label")}
         </p>
       </div>
 
-      <div className="content-col">
-        <div className="grid gap-10 xl:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] xl:items-start xl:gap-12">
+{/* text + image col */}
+      <div className="col-[content-start/content-end]">
+        <div className="grid md:grid-cols-2 ">
           <div className="hidden xl:block" />
 
           <div className="grid justify-items-start gap-12">
-            <h2 className="max-w-[16ch] text-2xl leading-[1.15] tracking-[-0.02em] md:text-3xl lg:text-4xl">
+            <h2 className="text-2xl leading-[1.15] tracking-[-0.02em] md:text-3xl lg:text-4xl text-right">
               {t("body")}
             </h2>
 

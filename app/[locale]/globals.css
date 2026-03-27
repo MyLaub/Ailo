@@ -3,7 +3,7 @@
 :root {
   --background: #f4f3f1;
   --foreground: #171717;
-  --darkred: #381c1a;
+  --darkred: #4A1C1F;
   --beige: #e9e5df;
   --armygreen: #6e6854;
   --darkbrown: #2d201c;
@@ -12,7 +12,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-dm-sans);
+  --font-sans: var(--font-sans);
   --font-mono: monospace;
 }
 
@@ -30,7 +30,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  font-family: var(--font-sans), "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
 }
 
 p,

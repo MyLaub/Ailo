@@ -1,0 +1,39 @@
+{
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "phone": "+45 60 51 31 31",
+      "email": "contact@ailodata.com",
+      "company": "AILO ApS",
+      "cvr": "CVR: 45405222",
+      "street": "H. P. Ørums Gade 32",
+      "city": "2100 Copenhagen",
+      "country": "Denmark"
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "home": "Home",
+      "expertise": "Expertise",
+      "about": "About us",
+      "cases": "Cases",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "language": {
+      "title": "Language",
+      "da": "DA",
+      "en": "EN"
+    },
+    "socials": {
+      "title": "Socials",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "bottom": {
+      "copyright": "Copyright © 2026",
+      "privacy": "Privacy policy",
+      "backToTop": "Back to top"
+    },
+    "logoAlt": "Ailo logo"
+  }
+}

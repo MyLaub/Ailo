@@ -6,10 +6,12 @@ export default function WhoWeAre() {
   const t = useTranslations("WhoWeAre");
 
   return (
+ 
     <section className="layout-grid section-space bg-(--beige) text-(--darkbrown)">
-      {/* FULL WIDTH CONTENT */}
-      <div className="col-[content-middle/content-end]">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-20 items-start">
+      {/* image + text 2 col */}
+
+          <div className="col-[content-start/content-end]">
+        <div className="grid md:grid-cols-2 ">
           {/* IMAGE */}
           
             <div className="aspect-4/5 overflow-hidden max-w-105">
@@ -19,17 +21,17 @@ export default function WhoWeAre() {
 
           {/* TEXT */}
           <div className="flex flex-col h-full">
-            <div className="space-y-8">
-              {t.raw("body").map((p: string, i: number) => (
-                <p key={i} className="text-2xl leading-[1.15] tracking-[-0.02em] md:text-3xl lg:text-4xl">
-                  {p}
-                </p>
-              ))}
+            <div className="space-y-8 text-2xl leading-[1.15] tracking-[-0.02em] md:text-3xl lg:text-4xl">
+           
+              {t("body") }
             </div>
 
-            <Link href="/about" className="mt-10 self-end text-xs uppercase tracking-[0.08em] underline underline-offset-6 transition-transform duration-500 hover:scale-[1.02] md:text-sm">
-              {t("readMore")} →
-            </Link>
+           <Link
+  href="/about"
+  className="mt-auto self-end text-xs uppercase tracking-[0.08em] transition-transform duration-500 hover:scale-[1.02] md:text-sm"
+>
+  {t("readMore")} →
+</Link>
           </div>
         </div>
       </div>
